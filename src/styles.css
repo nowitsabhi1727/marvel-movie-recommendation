@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap");
+.App {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  text-align: center;
+}
+body {
+  background-color: darksalmon;
+}
+.cardimg {
+  height: 250px;
+  width: 300px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  padding: 5px;
+  height: 380px;
+  /* height: auto; */
+  width: 300px;
+  background-color: #6a040f;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: left;
+  padding: 5px;
+}
+h3 {
+  color: #faa307;
+  margin: 0 0 0 0;
+}
+p {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  height: 70px;
+  color: #f48c06;
+}
+.cardbtn {
+  padding: 6px;
+  border-radius: 10px;
+  background-color: #03071e;
+  color: #faa307;
+  box-shadow: 1px 2px 3px black;
+}
+button {
+  background: transparent;
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+}
+.button-div {
+  padding: 50px;
+}
+.inside-btn {
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  background-color: #faa307;
+  color: #03071e;
+  margin: 5px;
+  border-radius: 10px;
+}
+h1 {
+  color: #6a040f;
+}
